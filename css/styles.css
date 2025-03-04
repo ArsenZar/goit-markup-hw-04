@@ -316,6 +316,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-item a:hover,
 .team-icon-item a:focus{
@@ -357,6 +358,7 @@ img{
 }
 .portfolio-item{
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .portfolio-item-photo{
     width: 100%;
@@ -388,10 +390,12 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.portfolio-item:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+}
 .portfolio-item:hover .portfolio-item-photo-hover{
     transform: translateY(0%);
 }
-
 .portfolio-item-text{
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
