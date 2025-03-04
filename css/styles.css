@@ -318,7 +318,7 @@ img{
     justify-content: center;
 }
 .team-icon-item a:hover,
-.team-icon-item a:active{
+.team-icon-item a:focus{
     background-color: #404bbf;
 }
 .team-icon{
