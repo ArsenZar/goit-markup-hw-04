@@ -39,6 +39,9 @@ ul{
 img{
     display: block;
 }
+input {
+	font-family: inherit;
+}
 
 .contact-list li,
 .advantages-list li,
@@ -426,6 +429,7 @@ img{
 }
 .footer-wrapper{
     display: flex;
+    align-items: baseline;
 }
 .footer-wrapper a{
     display: inline-block;
@@ -436,6 +440,30 @@ img{
     color: white;
     margin-bottom: 16px;
 }
+.footer-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.footer-icon-wrapper-li{
+    width: 40px;
+    height: 40px;
+}
+.footer-icon-item-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon-item-link:hover,
+.footer-icon-item-link:focus{
+    background-color: #31d0aa;
+}
+
 /*
 CORNFLOWER #E7E9FC
 CLOUD #F4F4FD
